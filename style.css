@@ -2,12 +2,14 @@
 {
     margin: 0;
     padding: 0;
+    
 }
 
 body
 {
     font-family: 'DM Sans', sans-serif;
     line-height: 1.8;
+    
 }
 
 .sec1
@@ -210,3 +212,92 @@ hr
 {
     width: 55%;
 }
+
+@media only screen and (max-width: 768px) {
+    body
+    {
+        line-height: 1.5;    
+    }
+    .sec1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }   
+    .sec2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }   
+    img
+    {
+        width: 100%;
+    }
+    .half-width
+    {
+        width: 100%;
+    }
+    .divRight1
+    {
+        text-align: center;
+    }
+        .divLeft
+    {
+        margin-right: 0%;
+    }
+
+    .divRight
+    {
+        margin-right: 0%;
+    }
+    img
+    {
+        margin-left: 0px;
+        width: 80%;
+    }
+    .hrFlex
+    {
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .hrDivleft1
+    {
+        width: 100%;
+    }
+    
+    .hrDivright2
+    {
+        width: 100%;
+    }
+    .fandb
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divLeft3
+    {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 2%;
+    }   
+    
+    .divRight3
+    {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 2%;
+    }   
+
+    .sec3
+    {
+        margin-top: 30px;
+    }
+
+    .sec3 h1 {
+        margin-bottom: 20px;
+    }
+
+  }
